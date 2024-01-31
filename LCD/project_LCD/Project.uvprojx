@@ -1051,6 +1051,16 @@
               <FileType>5</FileType>
               <FilePath>.\System\SysDelay.h</FilePath>
             </File>
+            <File>
+              <FileName>Dispaly.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\System\Dispaly.c</FilePath>
+            </File>
+            <File>
+              <FileName>Display.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\System\Display.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

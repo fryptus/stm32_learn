@@ -30,6 +30,7 @@
 ".\objects\sys.o"
 ".\objects\usart.o"
 ".\objects\sysdelay.o"
+".\objects\dispaly.o"
 ".\objects\led.o"
 ".\objects\key.o"
 ".\objects\pwm.o"

@@ -37,3 +37,4 @@
 .\objects\main.o: .\System\USART.h
 .\objects\main.o: D:\keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\main.o: D:\keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\main.o: .\System\Display.h

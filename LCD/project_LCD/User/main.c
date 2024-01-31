@@ -5,6 +5,7 @@
 #include "LCD.h"
 #include "USART.h"
 #include "math.h"
+#include "Display.h"
 
 int num;
 u16 lastX,lastY;
@@ -43,7 +44,7 @@ void drawCurve(short int rawValue){
   }
 }
 
- int main(void){
+int main(void){
 	u16 x=0;
 	delay_init();	    	 
 	uart_init(9600);	 	
@@ -51,12 +52,16 @@ void drawCurve(short int rawValue){
  	LCD_Init();
 	POINT_COLOR=RED; 	
   LCD_Display_Dir(1);
-	 
+	
   while(1){
-     for(x=0;x<80;x++){
+		
+		// Ui_Display();
+		
+    for(x=0;x<80;x++){
 			drawCurve(rawValue[x]);
 			delay_ms(2);
 		}
+		
 	} 
 }
 
